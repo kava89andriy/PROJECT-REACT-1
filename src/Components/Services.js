@@ -1,5 +1,3 @@
-import React from "react";
-
 const Services = () => {
   const servicesList = [
     {
@@ -36,10 +34,12 @@ const Services = () => {
         </div>
         <div className="offer-wrapper">
           {servicesList.map((item, index) => {
-            return <div className="offer-item">
-              <h3>{item.name}</h3>
-              <span>{item.info}</span>
-            </div>;
+            return (
+              <div key={index} className="offer-item">
+                <h3>{item.name}</h3>
+                <span>{item.info}</span>
+              </div>
+            );
           })}
         </div>
       </div>

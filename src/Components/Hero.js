@@ -1,4 +1,3 @@
-import React from "react";
 import bgLogo from "../assets/bg.jpg"
 
 const Hero = () => {
