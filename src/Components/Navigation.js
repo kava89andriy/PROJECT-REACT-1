@@ -14,7 +14,7 @@ const Navigation = () => {
             <a href="#services">oferta</a>
           </li>
           <li className="nav-item">
-            <a href="#">kontakt</a>
+            <a href="/#kontakt">kontakt</a>
           </li>
         </ul>
       </div>
