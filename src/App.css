@@ -120,13 +120,11 @@ ul {
   min-width: 200px;
 }
 .specialist-item:nth-child(odd) .specialist-photo {
-  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .specialist-item:nth-child(even) .specialist-photo {
-  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -175,7 +173,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.offer-item:first-child::before {
+.offer-item.new::before {
   content: "";
   display: block;
   width: 22px;

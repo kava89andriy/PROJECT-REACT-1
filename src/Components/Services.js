@@ -1,31 +1,7 @@
-const Services = () => {
-  const servicesList = [
-    {
-      name: "Usługa 1",
-      info: "nowość",
-    },
-    {
-      name: "Usługa 2",
-      info: "",
-    },
-    {
-      name: "Usługa 3",
-      info: "",
-    },
-    {
-      name: "Usługa 4",
-      info: "",
-    },
-    {
-      name: "Usługa 5",
-      info: "",
-    },
-    {
-      name: "Usługa 6",
-      info: "",
-    },
-  ];
+import servicesList from "../data/services";
+import ServiceItem from "./ServiceItem";
 
+const Services = () => {
   return (
     <section className="services" id="services">
       <div className="container">
@@ -35,10 +11,7 @@ const Services = () => {
         <div className="offer-wrapper">
           {servicesList.map((item, index) => {
             return (
-              <div key={index} className="offer-item">
-                <h3>{item.name}</h3>
-                <span>{item.info}</span>
-              </div>
+              <ServiceItem item={item} key={index} />
             );
           })}
         </div>
