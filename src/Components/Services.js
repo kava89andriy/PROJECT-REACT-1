@@ -1,4 +1,4 @@
-import servicesList from "../data/services";
+import servicesList from "../Data/services";
 import ServiceItem from "./ServiceItem";
 
 const Services = () => {
@@ -10,9 +10,7 @@ const Services = () => {
         </div>
         <div className="offer-wrapper">
           {servicesList.map((item, index) => {
-            return (
-              <ServiceItem item={item} key={index} />
-            );
+            return <ServiceItem item={item} key={index} />;
           })}
         </div>
       </div>

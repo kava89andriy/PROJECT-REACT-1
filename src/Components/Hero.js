@@ -1,4 +1,4 @@
-import bgLogo from "../assets/bg.jpg"
+import bgLogo from "../Assets/bg.jpg"
 
 const Hero = () => {
   return (

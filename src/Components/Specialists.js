@@ -1,4 +1,4 @@
-import specialistList from "../data/specialists";
+import specialistList from "../Data/specialists";
 
 const Specialists = () => {
   return (

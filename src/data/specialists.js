@@ -1,5 +1,5 @@
-import specialist1 from "../assets/specialist1.png";
-import specialist2 from "../assets/specialist2.png";
+import specialist1 from "../Assets/specialist1.png";
+import specialist2 from "../Assets/specialist2.png";
 
 const specialistList = [
   {
